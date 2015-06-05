@@ -1,4 +1,4 @@
-FROM nginx
+FROM centos
 
 RUN mkdir -p /d/git && mkdir -p /d/var/fastdfs 
 
