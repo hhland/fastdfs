@@ -1,6 +1,6 @@
 FROM centos
 
-RUN yum -y install git gcc g++ cmake
+RUN yum -y install git gcc gcc-c++ cmake
 
 RUN mkdir -p /d/git && mkdir -p /d/var/fastdfs 
 
