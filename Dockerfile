@@ -1,5 +1,7 @@
 FROM centos
 
+RUN yum -y install git gcc g++
+
 RUN mkdir -p /d/git && mkdir -p /d/var/fastdfs 
 
 RUN cd /d/git && git clone https://github.com/happyfish100/libfastcommon.git
